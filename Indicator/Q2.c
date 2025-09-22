@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-// User-defined function to return cube of a number using pointer
 int cube(int *element)
 {
     return (*element) * (*element) * (*element);
