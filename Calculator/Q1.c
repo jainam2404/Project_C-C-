@@ -3,7 +3,7 @@ int add(int a, int b) {
     return a + b;
 }
 
-int subtract(int a, int b) {
+int sub(int a, int b) {
     return a - b;
 }
 
@@ -58,8 +58,8 @@ int main() {
                 printf("Addition of %d and %d is %d\n", num1, num2, result);
                 break;
             case 2:
-                result = subtract(num1, num2);
-                printf("Subtraction of %d and %d is %d\n", num1, num2, result);
+                result = sub(num1, num2);
+                printf("subtract of %d and %d is %d\n", num1, num2, result);
                 break;
             case 3:
                 result = multiply(num1, num2);
